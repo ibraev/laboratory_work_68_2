@@ -12,7 +12,7 @@ class Orders extends Component {
   };
 
   componentDidMount() {
-    axios.get('/orders.jon').then(response => {
+    axios.get('/orders.json').then(response => {
       const fetchedOrders = Object.keys(response.data).map(key => {
         return {
           ...response.data[key],
