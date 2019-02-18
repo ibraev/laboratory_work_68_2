@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://burger-project-js3.firebaseio.com/'
+  baseURL: 'https://burger-project-js4.firebaseio.com/'
 });
 
 instance.interceptors.request.use(req => {
